@@ -1,2 +1,2 @@
 # Portfolio Python
- Projetos pessoas na jornada de dev python
+ Projetos pessoais na jornada de dev python
