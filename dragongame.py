@@ -46,16 +46,16 @@ print('''
 
 print("Bem vindo à Ilha do Dragão.")
 print("A sua missão é entrar no castelo e encontrar o tesouro do Dragão.")
-entry = str(input("Vamos começar? Digite [Y] para começar ou [N] para encerrrar o jogo.")).lower()
+entry = input("Vamos começar? Digite [Y] para começar ou [N] para encerrrar o jogo.").lower()
 if entry == "y":
     print("Temos um aventureiro corajoso aqui não é mesmo!?")
-    escolha1 = str(input("Entrando no castelo, você se depara com um caminho a esquerda e um a direita, por qual você quer seguir?[E] ou [D]")).lower()
+    escolha1 = input("Entrando no castelo, você se depara com um caminho a esquerda e um a direita, por qual você quer seguir?[E] ou [D]").lower()
     if escolha1 == "e":
         print("Você avança pelo castelo.")
-        escolha2 = str(input("Logo a frente você encontra uma ponte que dá acesso a uma torre interna no castelo.A ponte é guardada por um cavaleiro de armadura negra, portando uma Claymore.[S] para subornar o guarda ou [E] para esperar.")).lower()
+        escolha2 = input("Logo a frente você encontra uma ponte que dá acesso a uma torre interna no castelo.A ponte é guardada por um cavaleiro de armadura negra, portando uma Claymore.[S] para subornar o guarda ou [E] para esperar.").lower()
         if escolha2 == "e":
             print("Você espera alguns minutos e o guarda vai fazer a sua patrulha, se distanciando cada vez mais da ponte.")
-            escolha3 = str(input("Você adentra na torre, uma grande sala com duas portas, uma vermelha outra preta. Escolha [V] para vermelha ou [P] para preta.")).lower()
+            escolha3 = input("Você adentra na torre, uma grande sala com duas portas, uma vermelha outra preta. Escolha [V] para vermelha ou [P] para preta.").lower()
             if escolha3 == "v":
                 print("Parabens você encontrou o tesouro...")
                 print("Um enorme dragão vermelho fecha a porta atrás de você com a batida de suas asas e diz: Venha pequeno camundongo, tente pegar meu ouro.")
