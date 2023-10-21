@@ -1,7 +1,7 @@
 print("Obrigado por escolher a Pizzaria Python!")
-tamanho = input("Qual tamanho de pizza você deseja? P, M ou G")
-adicionar_pepperoni = input("Deseja adicionar pepperoni? S ou N")
-extra_queijo = input("Deseja mais queijo? S ou N")
+tamanho = input("Qual tamanho de pizza você deseja? P, M ou G?\n")
+adicionar_pepperoni = input("Deseja adicionar pepperoni? S ou N?\n")
+extra_queijo = input("Deseja mais queijo? S ou N?\n")
 
 
 conta = 0
